@@ -1,0 +1,125 @@
+
+.fondbleu {
+background-color: #7272ff;
+width: 100vw;
+display: flex;
+flex-direction: row;
+}
+
+
+
+.img2 {
+float: left;
+
+}
+
+body {margin: 0px;
+padding: 0px;
+}
+
+
+
+
+nav, .ula, .lia {
+list-style-type: none;
+display: inline-block;
+padding: 10px;
+float: right; }
+
+
+.ula,.lia, a{
+color: #000000;
+letter-spacing: 0.1rem; }
+
+.ula,.lia,a:hover{
+color: #ffd358 ;
+
+}
+.menu {
+    float: left;
+}
+
+.menu .lia a {
+text-decoration: none;
+
+}
+
+.pia { 
+font-size: 30px ;
+text-align: start;
+color: white;  
+padding: 2%;  
+}
+
+h1 {
+text-align: start;
+font-size: 50px;
+color: white;}
+
+.bouton {
+
+background-color: orange;
+border-style: inset;
+
+}
+
+.parent {
+display: flex ;
+flex-direction: row;
+}
+
+.enfant {   
+padding: 5%;
+display: flex;
+flex-direction: column;
+color: white
+}
+
+
+ul, li {color: white;}
+
+footer {
+                padding: 20px;
+                background-color: #45a1ff;
+                color: #fff;
+                justify-content: space-evenly;
+             }
+
+        .main-container {
+                display: flex;
+                flex-direction: row;
+                max-width: 1200px;
+                
+               
+        }
+        
+        .footer-content {
+                flex: 1;
+                margin: 0px;
+                height: 0px;
+                width: 0px;
+                
+            }
+        
+        .footer-content h3 {
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+            }
+        
+        .footer-content ul {
+                list-style: none;
+                padding: 0;
+        }
+        
+        .footer-content ul li {
+                margin-bottom: 10px;
+            }
+        
+        .footer-content ul li a {
+                color: white;
+                text-decoration: none;
+                transition: color 0.3s;
+        }
+        
+        .footer-content ul li a:hover {
+                 color: #ddd; }
